@@ -6,12 +6,21 @@
 //
 
 import UIKit
+import Combine
 
 class ViewController: UIViewController {
+    
+    var cancellables: [AnyCancellable] = []
+    
+    let viewModel = ViewModel()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        QiitaRepository.getArticles()
+        
+        viewModel.artices.sink{ value in
+            print(value)
+        }.store(in: &cancellables)
+        
     }
 
 

@@ -7,10 +7,11 @@
 
 import Foundation
 import Alamofire
+import Combine
 
 class QiitaRepository {
     
-    static func getArticles() {
+    static func getArticles(complition: @escaping ([Qiita]) -> Void) {
         
         AF.request(URLs.baseURL + "/api/v2/items",
                    method: .get,
@@ -24,8 +25,9 @@ class QiitaRepository {
                         return
                     }
                     do {
-                        let res = try JSONDecoder().decode([Qiita].self, from: data)
-                        print(res)
+                        let res = try JSONDecoder().decode([Qiita].self, from: data) as [Qiita]
+                        complition(res)
+                        
                     } catch let error {
                         print("Error: \(error)")
                     }
@@ -35,7 +37,5 @@ class QiitaRepository {
                     
                 }
             }
-        
-        
     }
 }
