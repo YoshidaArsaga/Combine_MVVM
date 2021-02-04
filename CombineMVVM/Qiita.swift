@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+struct Qiita: Codable {
+    let title: String
+    let url: String
+}

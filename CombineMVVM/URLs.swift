@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+final class URLs {
+    static let baseURL = "https://qiita.com"
+}

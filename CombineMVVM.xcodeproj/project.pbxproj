@@ -19,6 +19,7 @@
 		3BBE7B0725CBC077004AFBC5 /* Qiita.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBE7B0625CBC077004AFBC5 /* Qiita.swift */; };
 		3BBE7B0C25CBC092004AFBC5 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBE7B0B25CBC092004AFBC5 /* ViewModel.swift */; };
 		3BBE7B1125CBC0C7004AFBC5 /* URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBE7B1025CBC0C7004AFBC5 /* URLs.swift */; };
+		3BBE7B3A25CBC23D004AFBC5 /* QiitaRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBE7B3925CBC23D004AFBC5 /* QiitaRepository.swift */; };
 		69BDF28903690340F36A8ADA /* Pods_CombineMVVM_CombineMVVMUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 738FC1CC599A4E2365745DAE /* Pods_CombineMVVM_CombineMVVMUITests.framework */; };
 		BB0D2439371EDD43BA48D9E5 /* Pods_CombineMVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 856F8B259DDB7D746594B282 /* Pods_CombineMVVM.framework */; };
 		E78FDEB191792796AF756682 /* Pods_CombineMVVMTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96FEF49F382DB7EB8EB82177 /* Pods_CombineMVVMTests.framework */; };
@@ -62,6 +63,7 @@
 		3BBE7B0625CBC077004AFBC5 /* Qiita.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Qiita.swift; sourceTree = "<group>"; };
 		3BBE7B0B25CBC092004AFBC5 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		3BBE7B1025CBC0C7004AFBC5 /* URLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLs.swift; sourceTree = "<group>"; };
+		3BBE7B3925CBC23D004AFBC5 /* QiitaRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiitaRepository.swift; sourceTree = "<group>"; };
 		4FB1E610079245CBE0BB6917 /* Pods-CombineMVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CombineMVVM.release.xcconfig"; path = "Target Support Files/Pods-CombineMVVM/Pods-CombineMVVM.release.xcconfig"; sourceTree = "<group>"; };
 		502194744B553596CFFFA90F /* Pods-CombineMVVMTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CombineMVVMTests.debug.xcconfig"; path = "Target Support Files/Pods-CombineMVVMTests/Pods-CombineMVVMTests.debug.xcconfig"; sourceTree = "<group>"; };
 		66399361A8571237C17B8458 /* Pods-CombineMVVM-CombineMVVMUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CombineMVVM-CombineMVVMUITests.release.xcconfig"; path = "Target Support Files/Pods-CombineMVVM-CombineMVVMUITests/Pods-CombineMVVM-CombineMVVMUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -126,11 +128,12 @@
 			children = (
 				3BBE7AC825CBBD73004AFBC5 /* AppDelegate.swift */,
 				3BBE7ACA25CBBD73004AFBC5 /* SceneDelegate.swift */,
-				3BBE7ACC25CBBD73004AFBC5 /* ViewController.swift */,
 				3BBE7B1025CBC0C7004AFBC5 /* URLs.swift */,
-				3BBE7AFE25CBC061004AFBC5 /* QiitaAPI.swift */,
 				3BBE7B0625CBC077004AFBC5 /* Qiita.swift */,
+				3BBE7AFE25CBC061004AFBC5 /* QiitaAPI.swift */,
+				3BBE7B3925CBC23D004AFBC5 /* QiitaRepository.swift */,
 				3BBE7B0B25CBC092004AFBC5 /* ViewModel.swift */,
+				3BBE7ACC25CBBD73004AFBC5 /* ViewController.swift */,
 				3BBE7ACE25CBBD73004AFBC5 /* Main.storyboard */,
 				3BBE7AD125CBBD75004AFBC5 /* Assets.xcassets */,
 				3BBE7AD325CBBD75004AFBC5 /* LaunchScreen.storyboard */,
@@ -418,6 +421,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BBE7B3A25CBC23D004AFBC5 /* QiitaRepository.swift in Sources */,
 				3BBE7AFF25CBC061004AFBC5 /* QiitaAPI.swift in Sources */,
 				3BBE7ACD25CBBD73004AFBC5 /* ViewController.swift in Sources */,
 				3BBE7AC925CBBD73004AFBC5 /* AppDelegate.swift in Sources */,
