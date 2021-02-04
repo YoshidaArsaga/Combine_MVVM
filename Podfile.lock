@@ -1,0 +1,71 @@
+PODS:
+  - Alamofire (5.4.1)
+  - FloatingPanel (2.2.0)
+  - IBAnimatable (6.1.0)
+  - Instantiate (4.0.0)
+  - InstantiateStandard (4.0.0):
+    - Instantiate (~> 4.0)
+  - IQKeyboardManagerSwift (6.5.6)
+  - Kingfisher (6.1.0)
+  - PanModal (1.2.7)
+  - PKHUD (5.3.0)
+  - Realm (10.5.1):
+    - Realm/Headers (= 10.5.1)
+  - Realm/Headers (10.5.1)
+  - RealmSwift (10.5.1):
+    - Realm (= 10.5.1)
+  - SkeletonView (1.12.0)
+  - SPStorkController (1.8.4)
+  - SwiftyJSON (5.0.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.2)
+  - FloatingPanel
+  - IBAnimatable
+  - Instantiate
+  - InstantiateStandard
+  - IQKeyboardManagerSwift
+  - Kingfisher
+  - PanModal
+  - PKHUD (~> 5.0)
+  - RealmSwift
+  - SkeletonView
+  - SPStorkController
+  - SwiftyJSON
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - FloatingPanel
+    - IBAnimatable
+    - Instantiate
+    - InstantiateStandard
+    - IQKeyboardManagerSwift
+    - Kingfisher
+    - PanModal
+    - PKHUD
+    - Realm
+    - RealmSwift
+    - SkeletonView
+    - SPStorkController
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
+  FloatingPanel: 54b478292da5340317ce78afcaca88fab6f3b57e
+  IBAnimatable: 99dddd4c0625884a301ba3ecbc1615f8a390368e
+  Instantiate: 62516e7dde448721c1f5815a9ee7e0669d034d52
+  InstantiateStandard: 18ab1417ba787113350c71a5b2251f0b4448be67
+  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  Kingfisher: f5d8d60a0ef3edd642fd781bae60918599901aff
+  PanModal: 3e16ead1a907fb06f4df3f13492fd00149fa4974
+  PKHUD: 98f3e4bc904b9c916f1c5bb6d765365b5357291b
+  Realm: 77fcb4e0b9f2963ea06f584749a0d7dc9cab95e1
+  RealmSwift: 6abe6aa6cd8b70cc1a87afcb9232cabea74ff1ac
+  SkeletonView: 3aca8da20cfd0d577fbcd7832c4535983f827328
+  SPStorkController: 95926db63e1c5826f38f1c108b159a3c35c588a6
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+
+PODFILE CHECKSUM: 496a1a106d0cac004a4f1f9e93e8dd9abfb03449
+
+COCOAPODS: 1.10.0
